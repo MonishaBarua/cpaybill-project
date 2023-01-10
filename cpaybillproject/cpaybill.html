@@ -100,7 +100,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h5 class="p1">Group:<span class="pl-4">C</spans></h5>
+                        <h5 class="p1">Group:<span class="pl-4">C</span></h5>
                     </div>
                 </div>
                 <div class="row">
@@ -111,76 +111,161 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12 justify-content-center">
-                        <table class="table table-bordered">
+                    <div class="col-md-12 table_col">
+                        <table class="table table-bordered w-75">
                             <thead>
                               <tr>
-                                <th scope="col" colspan="3">Earnings (Rs.)</th>
-                                <th scope="col" colspan="3">Deductions (Rs.)</th>
-                                <th scope="col" colspan="5">Recoveries of Loan (Rs.)</th>
-                                <th scope="col" colspan="2">Out of Account Deduction</th>
+                                <th class="text-center" scope="col" colspan="3">Earnings (Rs.)</th>
                               </tr>
                             </thead>
                             <tbody>
-                              <tr>
-                                <td>Item</td>
-                                <td>Amount</td>
-                                <td>Cumulative</td>
-                                <td>Item</td>
-                                <td>Amount</td>
-                                <td>Cumulative</td>
-                                <td>Item</td>
-                                <td>Inst. No.</td>
-                                <td>Amount</td>
-                                <td>Cumulative</td>
-                                <td>Balance</td>
-                                <td>Item</td>
-                                <td>Amount</td>
-                            </tr>
-                            <tr>
-                                <td>BP</td>
-                                <td><span>24800</span></td>
-                                <td><span>195600</span></td>
-                                <td><span>GISI87</span></td>
-                                <td><span>6</span></td>
-                                <td><span>48</span></td>
-                            </tr>
-                            <tr>
-                                <td>DA</td>
-                                <td><span>744</span></td>
-                                <td><span>5868</span></td>
-                                <td><span>GISS87</span></td>
-                                <td><span>14</span></td>
-                                <td><span>112</span></td>
-                            </tr>
-                            <tr>
-                                <td>HRA</td>
-                                <td><span>2976</span></td>
-                                <td><span>23472</span></td>
-                                <td><span>GPF</span></td>
-                                <td><span>2500</span></td>
-                                <td><span>20000</span></td>
-                               
-                            </tr>
-                                <td><span>RtnA</span></td>
-                                <td><span>1500</span></td>
-                                <td><span>12000</span></td>
-                                <td><span>PT</span></td>
-                                <td><span>150</span></td>
-                                <td><span>1200</span></td>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Amount</th>
+                                    <th>Cumulative</th>
+                                </tr>
+                                <tr>
+                                    <td>BP</td>
+                                    <td><span>24800</span></td>
+                                    <td><span>195600</span></td>
+                                </tr>
+                                <tr>
+                                    <td>DA</td>
+                                    <td><span>744</span></td>
+                                    <td><span>5868</span></td>
+                                </tr>
+                                <tr>
+                                    <td>HRA</td>
+                                    <td><span>2976</span></td>
+                                    <td><span>23472</span></td>
                                 
-                            <tr>
-                                <td>GRAND TOTAL</td>
-                                <td>30020</td>
-                                <td>236940</td>
-                                <td></td>
-                                <td>2670</td>
-                                <td>21360</td>
-                            </tr>
-                            <tr>
-                                <td colspan="13">Net Pay &nbsp;&nbsp;&nbsp;&nbsp;27,350.00 &nbsp;&nbsp;&nbsp;&nbsp;Net Pay Rupees in Words : Twenty Seven Thousand Three Hundred Fifty only</td>
-                            </tr>
+                                </tr>
+                                    <td><span>RtnA</span></td>
+                                    <td><span>1500</span></td>
+                                    <td><span>12000</span></td>
+                                    
+                                <tr>
+                                    <td>GRAND TOTAL</td>
+                                    <td>30020</td>
+                                    <td>236940</td>
+                                </tr>
                             </tbody>
+                        </table>
+                        <table class="table table-bordered w-75">
+                            <thead>
+                                <tr>
+                                  <th class="text-center" scope="col" colspan="3">Deductions (Rs.)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th>Item</th>
+                                      <th>Amount</th>
+                                      <th>Cumulative</th>
+                                  </tr>
+                                  <tr>
+                                      <td>GISI87</td>
+                                      <td><span>24800</span></td>
+                                      <td><span>195600</span></td>
+                                  </tr>
+                                  <tr>
+                                      <td>GISS87</td>
+                                      <td><span>744</span></td>
+                                      <td><span>5868</span></td>
+                                  </tr>
+                                  <tr>
+                                      <td>GPF</td>
+                                      <td><span>2976</span></td>
+                                      <td><span>23472</span></td>
+                                  
+                                  </tr>
+                                      <td>PT</td>
+                                      <td><span>1500</span></td>
+                                      <td><span>12000</span></td>
+                                      
+                                  <tr>
+                                      <td></td>
+                                      <td>2670</td>
+                                      <td>21360</td>
+                                  </tr>
+                              </tbody>
+                        </table>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                  <th class="text-center" scope="col" colspan="4">Recoveries of Loan (Rs.)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th>Item</th>
+                                      <th>Inst. No.</th>
+                                      <th>Amount</th>
+                                      <th>Cumulative</th>
+                                  </tr>
+                                  <tr>
+                                      <td style="width:40%">0</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                  </tr>
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                  </tr>
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                  
+                                  </tr>
+                                      <td>0</td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                      
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                      <td></td>
+                                  </tr>
+                              </tbody>
+                        </table>
+                        <table class="table table-bordered w-50">
+                            <thead>
+                                <tr>
+                                  <th class="text-center" scope="col" colspan="3">Out of Account Deduction</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th>Item</th>
+                                      <th>Amount</th>
+                                  </tr>
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                  </tr>
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                  </tr>
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                  
+                                  </tr>
+                                      <td>0</td>
+                                      <td></td>
+                                      
+                                  <tr>
+                                      <td>0</td>
+                                      <td></td>
+                                  </tr>
+                              </tbody>
                         </table>
                     </div>
                 </div>     

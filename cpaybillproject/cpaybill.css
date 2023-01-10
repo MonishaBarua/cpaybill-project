@@ -1,18 +1,26 @@
-tbody,td {
+tbody, td {
     border: none;
 }
+
 .p1 {
-    font-size: 16px;
-    
+    font-size: 14px;
+
 }
+
 .b1 {
     border: 2px dashed #c9c9c9;
     border-left: transparent;
     border-right: transparent;
     font-size: 12px;
-    
+
 }
+
 .df {
     /* display: flex; */
     width: 100%;
+}
+
+.table_col {
+    display: flex;
+    flex-direction: row;
 }
